@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe1_12.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_12.dir/rule
+
+# Convenience name for target.
+aufgabe1_12: source/CMakeFiles/aufgabe1_12.dir/rule
+
+.PHONY : aufgabe1_12
+
+# fast build rule for target.
+aufgabe1_12/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_12.dir/build.make source/CMakeFiles/aufgabe1_12.dir/build
+.PHONY : aufgabe1_12/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe1_11.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_11.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_11.dir/rule
+
+# Convenience name for target.
+aufgabe1_11: source/CMakeFiles/aufgabe1_11.dir/rule
+
+.PHONY : aufgabe1_11
+
+# fast build rule for target.
+aufgabe1_11/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/build
+.PHONY : aufgabe1_11/fast
+
+# Convenience name for target.
 source/CMakeFiles/helloworld.dir/rule:
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/helloworld.dir/rule
 .PHONY : source/CMakeFiles/helloworld.dir/rule
@@ -196,6 +226,60 @@ aufgabe1_10.s: aufgabe1_10.cpp.s
 aufgabe1_10.cpp.s:
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/aufgabe1_10.cpp.s
 .PHONY : aufgabe1_10.cpp.s
+
+aufgabe1_11.o: aufgabe1_11.cpp.o
+
+.PHONY : aufgabe1_11.o
+
+# target to build an object file
+aufgabe1_11.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/aufgabe1_11.cpp.o
+.PHONY : aufgabe1_11.cpp.o
+
+aufgabe1_11.i: aufgabe1_11.cpp.i
+
+.PHONY : aufgabe1_11.i
+
+# target to preprocess a source file
+aufgabe1_11.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/aufgabe1_11.cpp.i
+.PHONY : aufgabe1_11.cpp.i
+
+aufgabe1_11.s: aufgabe1_11.cpp.s
+
+.PHONY : aufgabe1_11.s
+
+# target to generate assembly for a file
+aufgabe1_11.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/aufgabe1_11.cpp.s
+.PHONY : aufgabe1_11.cpp.s
+
+aufgabe1_12.o: aufgabe1_12.cpp.o
+
+.PHONY : aufgabe1_12.o
+
+# target to build an object file
+aufgabe1_12.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_12.dir/build.make source/CMakeFiles/aufgabe1_12.dir/aufgabe1_12.cpp.o
+.PHONY : aufgabe1_12.cpp.o
+
+aufgabe1_12.i: aufgabe1_12.cpp.i
+
+.PHONY : aufgabe1_12.i
+
+# target to preprocess a source file
+aufgabe1_12.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_12.dir/build.make source/CMakeFiles/aufgabe1_12.dir/aufgabe1_12.cpp.i
+.PHONY : aufgabe1_12.cpp.i
+
+aufgabe1_12.s: aufgabe1_12.cpp.s
+
+.PHONY : aufgabe1_12.s
+
+# target to generate assembly for a file
+aufgabe1_12.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_12.dir/build.make source/CMakeFiles/aufgabe1_12.dir/aufgabe1_12.cpp.s
+.PHONY : aufgabe1_12.cpp.s
 
 aufgabe1_9.o: aufgabe1_9.cpp.o
 
@@ -285,6 +369,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe1_12"
+	@echo "... aufgabe1_11"
 	@echo "... helloworld"
 	@echo "... edit_cache"
 	@echo "... tests"
@@ -293,6 +379,12 @@ help:
 	@echo "... aufgabe1_10.o"
 	@echo "... aufgabe1_10.i"
 	@echo "... aufgabe1_10.s"
+	@echo "... aufgabe1_11.o"
+	@echo "... aufgabe1_11.i"
+	@echo "... aufgabe1_11.s"
+	@echo "... aufgabe1_12.o"
+	@echo "... aufgabe1_12.i"
+	@echo "... aufgabe1_12.s"
 	@echo "... aufgabe1_9.o"
 	@echo "... aufgabe1_9.i"
 	@echo "... aufgabe1_9.s"
