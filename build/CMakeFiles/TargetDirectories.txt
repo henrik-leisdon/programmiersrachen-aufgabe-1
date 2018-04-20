@@ -1,6 +1,8 @@
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/CMakeFiles/edit_cache.dir
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/CMakeFiles/rebuild_cache.dir
-/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/edit_cache.dir
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/rebuild_cache.dir
-/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/tests.dir
 /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/helloworld.dir
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/edit_cache.dir
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/tests.dir
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/aufgabe1_9.dir
+/home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build/source/CMakeFiles/aufgabe1_10.dir

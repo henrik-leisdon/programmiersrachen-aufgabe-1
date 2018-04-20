@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmierspra
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/helloworld.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/helloworld.dir/rule
+.PHONY : source/CMakeFiles/helloworld.dir/rule
+
+# Convenience name for target.
+helloworld: source/CMakeFiles/helloworld.dir/rule
+
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+# Convenience name for target.
 source/CMakeFiles/tests.dir/rule:
 	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
 .PHONY : source/CMakeFiles/tests.dir/rule
@@ -126,19 +141,88 @@ tests/fast:
 .PHONY : tests/fast
 
 # Convenience name for target.
-source/CMakeFiles/helloworld.dir/rule:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/helloworld.dir/rule
-.PHONY : source/CMakeFiles/helloworld.dir/rule
+source/CMakeFiles/aufgabe1_9.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_9.dir/rule
 
 # Convenience name for target.
-helloworld: source/CMakeFiles/helloworld.dir/rule
+aufgabe1_9: source/CMakeFiles/aufgabe1_9.dir/rule
 
-.PHONY : helloworld
+.PHONY : aufgabe1_9
 
 # fast build rule for target.
-helloworld/fast:
-	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
+aufgabe1_9/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
+.PHONY : aufgabe1_9/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe1_10.dir/rule:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_10.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_10.dir/rule
+
+# Convenience name for target.
+aufgabe1_10: source/CMakeFiles/aufgabe1_10.dir/rule
+
+.PHONY : aufgabe1_10
+
+# fast build rule for target.
+aufgabe1_10/fast:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
+.PHONY : aufgabe1_10/fast
+
+aufgabe1_10.o: aufgabe1_10.cpp.o
+
+.PHONY : aufgabe1_10.o
+
+# target to build an object file
+aufgabe1_10.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/aufgabe1_10.cpp.o
+.PHONY : aufgabe1_10.cpp.o
+
+aufgabe1_10.i: aufgabe1_10.cpp.i
+
+.PHONY : aufgabe1_10.i
+
+# target to preprocess a source file
+aufgabe1_10.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/aufgabe1_10.cpp.i
+.PHONY : aufgabe1_10.cpp.i
+
+aufgabe1_10.s: aufgabe1_10.cpp.s
+
+.PHONY : aufgabe1_10.s
+
+# target to generate assembly for a file
+aufgabe1_10.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/aufgabe1_10.cpp.s
+.PHONY : aufgabe1_10.cpp.s
+
+aufgabe1_9.o: aufgabe1_9.cpp.o
+
+.PHONY : aufgabe1_9.o
+
+# target to build an object file
+aufgabe1_9.cpp.o:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/aufgabe1_9.cpp.o
+.PHONY : aufgabe1_9.cpp.o
+
+aufgabe1_9.i: aufgabe1_9.cpp.i
+
+.PHONY : aufgabe1_9.i
+
+# target to preprocess a source file
+aufgabe1_9.cpp.i:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/aufgabe1_9.cpp.i
+.PHONY : aufgabe1_9.cpp.i
+
+aufgabe1_9.s: aufgabe1_9.cpp.s
+
+.PHONY : aufgabe1_9.s
+
+# target to generate assembly for a file
+aufgabe1_9.cpp.s:
+	cd /home/thetrippleh/Dokumente/Grive/Uni/git/buw_programmiersprachen/programmiersrachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/aufgabe1_9.cpp.s
+.PHONY : aufgabe1_9.cpp.s
 
 helloworld.o: helloworld.cpp.o
 
@@ -200,10 +284,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tests"
 	@echo "... helloworld"
+	@echo "... edit_cache"
+	@echo "... tests"
+	@echo "... aufgabe1_9"
+	@echo "... aufgabe1_10"
+	@echo "... aufgabe1_10.o"
+	@echo "... aufgabe1_10.i"
+	@echo "... aufgabe1_10.s"
+	@echo "... aufgabe1_9.o"
+	@echo "... aufgabe1_9.i"
+	@echo "... aufgabe1_9.s"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"

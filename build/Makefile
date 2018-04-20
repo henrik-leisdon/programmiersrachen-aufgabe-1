@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named helloworld
+
+# Build rule for target.
+helloworld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloworld
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	$(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -124,17 +137,30 @@ tests/fast:
 .PHONY : tests/fast
 
 #=============================================================================
-# Target rules for targets named helloworld
+# Target rules for targets named aufgabe1_9
 
 # Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 helloworld
-.PHONY : helloworld
+aufgabe1_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_9
+.PHONY : aufgabe1_9
 
 # fast build rule for target.
-helloworld/fast:
-	$(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
+aufgabe1_9/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
+.PHONY : aufgabe1_9/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_10
+
+# Build rule for target.
+aufgabe1_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_10
+.PHONY : aufgabe1_10
+
+# fast build rule for target.
+aufgabe1_10/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
+.PHONY : aufgabe1_10/fast
 
 # Help Target
 help:
@@ -144,8 +170,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tests"
 	@echo "... helloworld"
+	@echo "... tests"
+	@echo "... aufgabe1_9"
+	@echo "... aufgabe1_10"
 .PHONY : help
 
 
