@@ -16,7 +16,7 @@ float oberflZ(int hoehe, int radius){
     return oberfl;
 }
 
-TEST_CASE ( " describe_volZ" ,"[volZ]")
+TEST_CASE ( " describe_Z" ,"[Z]")
 {
     REQUIRE (  volZ(10, 5) == Approx(785.398));
     REQUIRE (  volZ(1, 1) == Approx(3.1416));
