@@ -11,5 +11,7 @@ add_executable(aufgabe1_11 aufgabe1_11.cpp)
 
 add_executable(aufgabe1_12 aufgabe1_12.cpp)
 
+add_executable(aufgabe1_13 aufgabe1_13.cpp)
+
 # Kommentieren Sie die folgenden Zeilen für die Aufgabe `mileToKilometer` aus
 #add_executable(mileToKilometer mileToKilometer.cpp)
