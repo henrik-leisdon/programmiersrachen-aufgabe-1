@@ -3,11 +3,13 @@
 # include <cmath>
 
 
-int fract(int f)
+float fract(float f)
 {
     int i;
-    f = f-i;
-    return f;
+    float sum;
+    i = f;
+    sum = f-i;
+    return sum;
 }
 
 TEST_CASE ( " describe_fract" ,"[fract]")

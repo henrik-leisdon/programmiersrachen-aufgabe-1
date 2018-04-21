@@ -3,14 +3,14 @@
 # include <cmath>
 
 
-int volZ(int hoehe, int radius)
+float volZ(int hoehe, int radius)
 {
     float volumen;
     volumen = M_PI*radius*radius*hoehe;
     return volumen;
 }
 
-int oberflZ(int hoehe, int radius){
+float oberflZ(int hoehe, int radius){
     float oberfl;
     oberfl = 2* M_PI*radius*(radius+hoehe);
     return oberfl;
@@ -18,7 +18,10 @@ int oberflZ(int hoehe, int radius){
 
 TEST_CASE ( " describe_volZ" ,"[volZ]")
 {
-    REQUIRE (  volZ(10,5) == Approx());
+    REQUIRE (  volZ(10, 5) == Approx(785.398));
+    REQUIRE (  volZ(1, 1) == Approx(3.1416));
+    REQUIRE ( oberflZ(10,5) == Approx (471.238));
+    REQUIRE ( oberflZ(1,1) == Approx (12.56637));
 }
 
 
