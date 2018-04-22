@@ -111,30 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aufgabe1_10
+# Target rules for targets named mainDoc
 
 # Build rule for target.
-aufgabe1_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_10
-.PHONY : aufgabe1_10
+mainDoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mainDoc
+.PHONY : mainDoc
 
 # fast build rule for target.
-aufgabe1_10/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
-.PHONY : aufgabe1_10/fast
+mainDoc/fast:
+	$(MAKE) -f source/CMakeFiles/mainDoc.dir/build.make source/CMakeFiles/mainDoc.dir/build
+.PHONY : mainDoc/fast
 
 #=============================================================================
-# Target rules for targets named aufgabe1_14
+# Target rules for targets named aufgabe1_16
 
 # Build rule for target.
-aufgabe1_14: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_14
-.PHONY : aufgabe1_14
+aufgabe1_16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_16
+.PHONY : aufgabe1_16
 
 # fast build rule for target.
-aufgabe1_14/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/build
-.PHONY : aufgabe1_14/fast
+aufgabe1_16/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_16.dir/build.make source/CMakeFiles/aufgabe1_16.dir/build
+.PHONY : aufgabe1_16/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_03
+
+# Build rule for target.
+aufgabe1_03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_03
+.PHONY : aufgabe1_03
+
+# fast build rule for target.
+aufgabe1_03/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_03.dir/build.make source/CMakeFiles/aufgabe1_03.dir/build
+.PHONY : aufgabe1_03/fast
 
 #=============================================================================
 # Target rules for targets named aufgabe1_9
@@ -174,6 +187,32 @@ helloworld: cmake_check_build_system
 helloworld/fast:
 	$(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_10
+
+# Build rule for target.
+aufgabe1_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_10
+.PHONY : aufgabe1_10
+
+# fast build rule for target.
+aufgabe1_10/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
+.PHONY : aufgabe1_10/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_14
+
+# Build rule for target.
+aufgabe1_14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_14
+.PHONY : aufgabe1_14
+
+# fast build rule for target.
+aufgabe1_14/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/build
+.PHONY : aufgabe1_14/fast
 
 #=============================================================================
 # Target rules for targets named aufgabe1_11
@@ -227,19 +266,6 @@ aufgabe1_13/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe1_13.dir/build.make source/CMakeFiles/aufgabe1_13.dir/build
 .PHONY : aufgabe1_13/fast
 
-#=============================================================================
-# Target rules for targets named aufgabe1_16
-
-# Build rule for target.
-aufgabe1_16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_16
-.PHONY : aufgabe1_16
-
-# fast build rule for target.
-aufgabe1_16/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_16.dir/build.make source/CMakeFiles/aufgabe1_16.dir/build
-.PHONY : aufgabe1_16/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,16 +274,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... aufgabe1_10"
-	@echo "... aufgabe1_14"
+	@echo "... mainDoc"
+	@echo "... aufgabe1_16"
+	@echo "... aufgabe1_03"
 	@echo "... aufgabe1_9"
 	@echo "... tests"
 	@echo "... helloworld"
+	@echo "... aufgabe1_10"
+	@echo "... aufgabe1_14"
 	@echo "... aufgabe1_11"
 	@echo "... aufgabe1_12"
 	@echo "... aufgabe1_15"
 	@echo "... aufgabe1_13"
-	@echo "... aufgabe1_16"
 .PHONY : help
 
 

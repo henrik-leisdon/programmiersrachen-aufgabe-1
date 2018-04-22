@@ -3,6 +3,8 @@ add_executable(helloworld helloworld.cpp)
 
 add_executable(tests tests.cpp)
 
+add_executable(aufgabe1_03 aufgabe1_03.cpp)
+
 add_executable(aufgabe1_9 aufgabe1_9.cpp)
 
 add_executable(aufgabe1_10 aufgabe1_10.cpp)
@@ -18,6 +20,8 @@ add_executable(aufgabe1_14 aufgabe1_14.cpp)
 add_executable(aufgabe1_15 aufgabe1_15.cpp)
 
 add_executable(aufgabe1_16 aufgabe1_16.cpp)
+
+add_executable(mainDoc mainDoc.cpp)
 
 
 # Kommentieren Sie die folgenden Zeilen für die Aufgabe `mileToKilometer` aus

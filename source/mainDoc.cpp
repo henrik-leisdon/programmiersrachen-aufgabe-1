@@ -155,24 +155,10 @@ TEST_CASE ( " describe_is_Prime " ,"[is_Prime]")
     
 }
 
-
 int main(int argc, char* argv[])
 {
   
   return Catch::Session().run(argc, argv);
-}
-
-//Task 1_16
-int milesToKm()
-{
-    std::cout << "miles:\n";
-    int miles = 0;
-    std::cin >> miles;
-
-    float kilometer;
-    kilometer = miles*1.60934;
-
-    std::cout << miles << " miles are " << kilometer << " kilometer \n";
-    return 0; 
 
 }
+
